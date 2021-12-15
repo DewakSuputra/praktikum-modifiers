@@ -3,7 +3,7 @@ package duadimensi;
 public class Segitiga extends Persegi {
     Double tinggi;
 
-    Segitiga(Double sisi, Double tinggi) {
+    public Segitiga(Double sisi, Double tinggi) {
         super(sisi);
         this.tinggi = tinggi;
     }

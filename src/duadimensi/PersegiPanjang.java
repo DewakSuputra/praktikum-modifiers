@@ -4,7 +4,7 @@ public class PersegiPanjang extends Persegi{
     
     Double panjang;
 
-    PersegiPanjang(Double panjang, Double lebar) {
+    protected PersegiPanjang(Double panjang, Double lebar) {
         super(lebar);
         this.panjang = panjang;
     }
